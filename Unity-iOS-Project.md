@@ -20,8 +20,8 @@ ShareSDK下载[点这里](http://pan.baidu.com/s/1hqm60Os).
 ### 特别说明
 修改ShareSDKUnity3DBridge.m文件
 
-对于需要使用SSO（QQ空间、人人网）或者部分需要客户端分享的平台（包括：微信、Google＋、QQ）。请确认相对应的宏是否定义，如集成微信，则开启__SHARESDK_WECHAT__。其他平台同理，如下图：*[大图](http://7xlxu1.com1.z0.glb.clouddn.com/2222222222223.jpg)*  
-![sharesdk](http://7xlxu1.com1.z0.glb.clouddn.com/2222222222223.jpg?imageView/2/w/300)
+对于需要使用SSO（QQ空间、人人网）或者部分需要客户端分享的平台（包括：微信、Google＋、QQ）。请确认相对应的宏是否定义，如集成微信，则开启__SHARESDK_WECHAT__。其他平台同理，如下图： 
+<img src="images/ShareSDKUnity3DBrige.jpg"  width="400">
 
 ## Unity3D设置
 
@@ -29,13 +29,13 @@ ShareSDK下载[点这里](http://pan.baidu.com/s/1hqm60Os).
 
 ### Vuforia PlaySetting 设置
 
-#### 启动图配置 *[大图](http://7xlxu1.com1.z0.glb.clouddn.com/2.21.07.png)*
-![vuforia](http://7xlxu1.com1.z0.glb.clouddn.com/2.21.07.png?imageView/2/w/300 'Vuforia Setting')   
+#### 启动图配置 
+<img src="images/Unity-Export-setting-1.png"  width="400"> 
 
 
-#### Vuforia基本配置 *[大图](http://7xlxu1.com1.z0.glb.clouddn.com/4.59.38.png)*
+#### Vuforia基本配置 
 
-![vuforia](http://7xlxu1.com1.z0.glb.clouddn.com/4.59.38.png?imageView/2/w/300 'Vuforia Setting')   
+<img src="images/Unity-Export-setting-1.png"  width="400">  
 
 然后导出iOS项目文件夹即可。   
 
@@ -83,19 +83,16 @@ canOpenURL: failed for URL: "weixin://app/wxdaae92a9cfe5d54c/" - error: "This ap
 
 #### 导入ShareSDK文件夹
 
-将ShareSDK目录拷贝到导出的XCode项目中。如图(*[大图](http://7xlxu1.com1.z0.glb.clouddn.com/700px-u3d_doc_004.png)*
-)：
+将ShareSDK目录拷贝到导出的XCode项目中。如图：
 
-![sharesdk](http://7xlxu1.com1.z0.glb.clouddn.com/700px-u3d_doc_004.png?imageView/2/w/300)
+<img src="images/ShareSDK-Copy.png"  width="500">  
 
 #### 添加依赖库  
 > [官方视频](http://v.youku.com/v_show/id_XODA5NTMxOTc2.html)    [官方说明](http://wiki.mob.com/%E5%BF%AB%E9%80%9F%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/)
 
-将ShareSDK导入工程中，并添加相应的依赖库。执行完成后，如下图所示(*[大图](http://7xlxu1.com1.z0.glb.clouddn.com/700px-u3d_doc_005.png)*
-)：
+将ShareSDK导入工程中，并添加相应的依赖库。执行完成后，如下图：
 
-![sharesdk](http://7xlxu1.com1.z0.glb.clouddn.com/700px-u3d_doc_005.png?imageView/2/w/300)
-
+<img src="images/xcode-include-lib.png" width="500">
 
 **必须添加的依赖库如下**：
 
@@ -162,10 +159,9 @@ return [ShareSDK handleOpenURL:url sourceApplication:sourceApplication annotatio
 
 > 官方文档[点击这里](http://wiki.mob.com/%E5%BF%AB%E9%80%9F%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97/)
 
-对于需要客户端分享平台和SSO授权平台，需要添加URL Scheme。如图：(*[大图](http://7xlxu1.com1.z0.glb.clouddn.com/addweixinAppID.jpg)*
-)：
+对于需要客户端分享平台和SSO授权平台，需要添加URL Scheme。如图：
 
-![sharesdk](http://7xlxu1.com1.z0.glb.clouddn.com/addweixinAppID.jpg?imageView/2/w/300)
+<img src="images/addweixinappid.jpg" width="420">
 
 #### 其它问题
 
